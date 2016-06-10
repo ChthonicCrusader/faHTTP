@@ -1,0 +1,1808 @@
+
+==================== FINAL INTERFACE ====================
+2016-06-10 11:00:06.710132 UTC
+
+interface main@main:Main [family instance module] 7103
+  interface hash: 9a7dd586ab6f3ad1363a6ed7281f2578
+  ABI hash: ca70034c8e1e3a6850522278cef960d2
+  export-list hash: d4210ba07121148c28d201993df5ea4f
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: e903066bb6f0b0010fbf662eb120261d
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Main.main
+module dependencies:
+package dependencies: aeson-0.11.2.0@aeson_33XPr26G7eRCQzR9rt6W5q
+                      array-0.5.1.0@array_67iodizgJQIIxYVTp4emlA
+                      asn1-encoding-0.9.3@asn1e_EYXhTlYjEiR90RlLcYtuGo
+                      asn1-parse-0.9.4@asn1p_13iDpiZ3dInJZdkxwHAG6k
+                      asn1-types-0.3.2@asn1t_1wIythtYS1MCLmALwCnyOY
+                      async-2.1.0@async_KuqnF1GrhHK5nNp6Zzm3jy
+                      attoparsec-0.13.0.2@attop_41FU8li3hiTHrQHazQNzh3 base-4.8.2.0
+                      base64-bytestring-1.0.0.1@base6_AkCk8zInckjJsyQ4AIFHPN
+                      binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi
+                      blaze-builder-0.4.0.2@blaze_5LQurmvTy7l9rPlWgPlNE4
+                      byteable-0.1.1@bytea_38yjJsjDRm9KusCn8Yo4aB
+                      bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6
+                      case-insensitive-1.2.0.6@casei_KREfefAtA7j6zRZtlU9vZn
+                      cereal-0.5.2.0@cerea_GKnWyxn5hRWK9xfCMeMEL8
+                      conduit-1.2.6.6@condu_JdeDIbfFlF2LFouNeugyxh
+                      connection-0.2.5@conne_AglVfRU1cocLqutdpQHWuF
+                      containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU
+                      cookie-0.4.2@cooki_HgYmE0LnTLQI3ZHrNmxIUf
+                      cryptonite-0.15@crypt_F8W9M5THBW4FIZAr1UOHUh
+                      data-default-class-0.0.1@datad_K91y8NcZUJI9yaBI61rgdD
+                      deepseq-1.4.1.1@deeps_6vMKxt5sPFR0XsbRWvvq59
+                      directory-1.2.2.0@direc_0hFG6ZxK1nk4zsyOqbNHfm
+                      dlist-0.7.1.2@dlist_AO7XAasbAeyL0XLKeq1Aui
+                      exceptions-0.8.2.1@excep_6lgwjdgwblY7rzh5s6SLd8
+                      fail-4.9.0.0@fail_2xB1AvdW34sDm9N3JOe33G
+                      filepath-1.4.0.0@filep_Ey7a1in9roBAE8bUFJ5R9m ghc-prim-0.4.0.0
+                      hashable-1.2.4.0@hasha_EalUWgp8NarBYWPbvYAD8I
+                      hourglass-0.2.10@hourg_LCfvpegcEVDEeuH0foNCGl
+                      http-client-0.4.28@httpc_3sEbPMcttDi6fpJoT4JaQj
+                      http-client-tls-0.2.4@httpc_C97fc7jJtBv709WIGkBYFJ
+                      http-conduit-2.1.10.1@httpc_GnY3b37jRTo23ufrVQeHZx
+                      http-types-0.9.1@httpt_30VPSAVsdXY5FB3bVeFrTd integer-gmp-1.0.0.0
+                      lifted-base-0.2.3.6@lifte_DoOvgrTvmEtENHs0ypaZTR
+                      memory-0.13@memor_AtLbf837cOS9kNhIuRhbe8
+                      mmorph-1.0.6@mmorp_42KUkOfzC6q3qCtAMiSHam
+                      monad-control-1.0.1.0@monad_7Tqv3C2ASZP4J7swGaIkqS
+                      mtl-2.2.1@mtl_Aue4leSeVkpKLsfHIV51E8
+                      network-uri-2.6.1.0@netwo_8hCRgBDYvZA6nRJCSPBXws
+                      network-2.6.2.1@netwo_A6pE0dLgMEk2GtUa1JtTJQ
+                      parsec-3.1.11@parse_AtBt9uDOS2NCyWnucTHV3y
+                      pem-0.2.2@pem_68T9LQQkAB02O0OO4VHaxc
+                      pretty-1.1.2.0@prett_JItwetRppk1H5Uq3xbjDGC
+                      primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3
+                      resourcet-1.1.7.4@resou_HqDlSpmGRphG5PMbskXVNU
+                      scientific-0.3.4.6@scien_5s26qRhE5w04kI4pP1Rtwm
+                      semigroups-0.18.1@semig_Iivsiy35cmk8ISqG11MEap
+                      socks-0.5.5@socks_D4UEXBv0FDCKWsPKeunBc1
+                      stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD
+                      streaming-commons-0.1.15.5@strea_EmmPiWycOZRDBDTh9xaABj
+                      tagged-0.8.4@tagge_LPeicl3HxVfGUMMwMEsAE6 template-haskell-2.10.0.0
+                      text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne
+                      time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn
+                      tls-1.3.8@tls_7DzsyPA71Kx2j08iTqGHnT
+                      transformers-base-0.4.4@trans_74WedXVmfaHHDJItmBRTVp
+                      transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF
+                      unix-2.7.1.0@unix_KZL8h98IqDM57kQSPo1mKx
+                      unordered-containers-0.2.7.0@unord_2BLx4faR35mFWLJj5xiBgm
+                      vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln
+                      x509-1.6.3@x509_9qMiaTAT3cN1LJ3oJXorK9
+                      x509-system-1.6.3@x509s_3gh4dvYlJPfL99lKZRW0cN
+                      x509-store-1.6.1@x509s_LI3lRfTftwH56UTWs90Ztz
+                      x509-validation-1.6.3@x509v_GlB52d4RqsX77dc0zMu497
+                      zlib-0.6.1.1@zlib_7LjT7TSHX8U3VTy3t378Vu
+orphans: aeson-0.11.2.0@aeson_33XPr26G7eRCQzR9rt6W5q:Data.Aeson.Types.Generic
+         aeson-0.11.2.0@aeson_33XPr26G7eRCQzR9rt6W5q:Data.Aeson.Types.Instances
+         attoparsec-0.13.0.2@attop_41FU8li3hiTHrQHazQNzh3:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.0.2@attop_41FU8li3hiTHrQHazQNzh3:Data.Attoparsec.Text.Internal
+         base-4.8.2.0:GHC.Base base-4.8.2.0:GHC.Float
+         binary-0.7.5.0@binar_3uXFWMoAGBg0xKP9MHKRwi:Data.Binary.Generic
+         bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Builder
+         hashable-1.2.4.0@hasha_EalUWgp8NarBYWPbvYAD8I:Data.Hashable.Generic
+         http-client-0.4.28@httpc_3sEbPMcttDi6fpJoT4JaQj:Network.HTTP.Client.Request
+         network-2.6.2.1@netwo_A6pE0dLgMEk2GtUa1JtTJQ:Network.Socket
+         network-2.6.2.1@netwo_A6pE0dLgMEk2GtUa1JtTJQ:Network.Socket.Types
+         stm-2.4.4.1@stm_EyxFXFfnfY05IrjGaqCxeD:Control.Monad.STM
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Lazy
+         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Show
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Calendar.Gregorian
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.Format.Parse
+         time-1.5.0.1@time_FTheb6LSxyX1UABIbBXRfn:Data.Time.LocalTime.LocalTime
+         transformers-0.4.2.0@trans_GZTjP9K5WFq01xC9BAGQpF:Control.Monad.Trans.Error
+         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Fusion.Bundle
+         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed
+family instance modules: attoparsec-0.13.0.2@attop_41FU8li3hiTHrQHazQNzh3:Data.Attoparsec.Internal.Types
+                         base-4.8.2.0:Control.Applicative base-4.8.2.0:Data.Either
+                         base-4.8.2.0:Data.Functor.Identity base-4.8.2.0:Data.Monoid
+                         base-4.8.2.0:Data.Type.Equality base-4.8.2.0:Data.Void
+                         base-4.8.2.0:GHC.Exts base-4.8.2.0:GHC.Generics
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntMap.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.IntSet.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Map.Base
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Sequence
+                         containers-0.5.6.2@conta_2C3ZI8RgPO2LBMidXKTvIU:Data.Set.Base
+                         dlist-0.7.1.2@dlist_AO7XAasbAeyL0XLKeq1Aui:Data.DList
+                         http-client-0.4.28@httpc_3sEbPMcttDi6fpJoT4JaQj:Network.HTTP.Client
+                         monad-control-1.0.1.0@monad_7Tqv3C2ASZP4J7swGaIkqS:Control.Monad.Trans.Control
+                         network-uri-2.6.1.0@netwo_8hCRgBDYvZA6nRJCSPBXws:Network.URI
+                         pretty-1.1.2.0@prett_JItwetRppk1H5Uq3xbjDGC:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.1.0@primi_EphY2c7CCxSCBKjAN0YTR3:Control.Monad.Primitive
+                         resourcet-1.1.7.4@resou_HqDlSpmGRphG5PMbskXVNU:Control.Monad.Trans.Resource.Internal
+                         semigroups-0.18.1@semig_Iivsiy35cmk8ISqG11MEap:Data.List.NonEmpty
+                         semigroups-0.18.1@semig_Iivsiy35cmk8ISqG11MEap:Data.Semigroup
+                         tagged-0.8.4@tagge_LPeicl3HxVfGUMMwMEsAE6:Data.Tagged
+                         template-haskell-2.10.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text
+                         text-1.2.2.1@text_HmqVQnZSpjaC156ABqPhne:Data.Text.Lazy
+                         unordered-containers-0.2.7.0@unord_2BLx4faR35mFWLJj5xiBgm:Data.HashMap.Base
+                         unordered-containers-0.2.7.0@unord_2BLx4faR35mFWLJj5xiBgm:Data.HashSet
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Primitive
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Storable
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed
+                         vector-0.11.0.0@vecto_LmZ3LQW4ivu8MsQuVgukln:Data.Vector.Unboxed.Base
+                         zlib-0.6.1.1@zlib_7LjT7TSHX8U3VTy3t378Vu:Codec.Compression.Zlib.Stream
+import  -/  aeson-0.11.2.0@aeson_33XPr26G7eRCQzR9rt6W5q:Data.Aeson e5b80c4d626dd9b7d0cee94becb2b254
+import  -/  aeson-0.11.2.0@aeson_33XPr26G7eRCQzR9rt6W5q:Data.Aeson.TH 83970ef68726a5112f9c35ff336599f7
+import  -/  aeson-0.11.2.0@aeson_33XPr26G7eRCQzR9rt6W5q:Data.Aeson.Types.Class 2db6b34b289aaab08fa587bc89f22d76
+import  -/  base-4.8.2.0:Data.Char c8f827952d4111ae2e47c0b105217cdb
+import  -/  base-4.8.2.0:GHC.Base 1db77db5dae73d8c424c85b09fbadb89
+import  -/  base-4.8.2.0:GHC.Generics c00a6d11ff9e9cf35a82831f837d9e97
+import  -/  base-4.8.2.0:GHC.IO bb5b81adcea33b14bd4abe16d7dde45f
+import  -/  base-4.8.2.0:GHC.Show 0e1d8380a8fb0cfb07ebeda3b70cbf38
+import  -/  base-4.8.2.0:Prelude 694dcaf039efe62df1c44834e2dbd2fb
+import  -/  base-4.8.2.0:System.IO 0248c1e850b7ea124cf7a2e1669ebf67
+import  -/  bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Char8 53a1cf100554bc244cf2a8a175681688
+import  -/  bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Internal dfa34e211eb5d18268ce7a397234e851
+import  -/  bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Lazy 7f48d46f600589dfd94d36d5fcf54f5b
+import  -/  bytestring-0.10.6.0@bytes_6VWy06pWzJq9evDvK2d4w6:Data.ByteString.Lazy.Char8 8186bd7f35b30286b5ada26016ada954
+import  -/  ghc-prim-0.4.0.0:GHC.Classes e1f4ff80f7b5262008a595d29986fb18
+import  -/  http-client-0.4.28@httpc_3sEbPMcttDi6fpJoT4JaQj:Network.HTTP.Client.Manager 5974b33b196ff4fff2541a8bc25461d3
+import  -/  http-client-0.4.28@httpc_3sEbPMcttDi6fpJoT4JaQj:Network.HTTP.Client.Request 7a615238ced66f415f1c76b2e5177743
+import  -/  http-client-0.4.28@httpc_3sEbPMcttDi6fpJoT4JaQj:Network.HTTP.Client.Types 1eb054158aa239b6f2e2532a3672ca5b
+import  -/  http-client-tls-0.2.4@httpc_C97fc7jJtBv709WIGkBYFJ:Network.HTTP.Client.TLS e4ab2e54377e5a3c60bca1e8eba3a7d4
+import  -/  http-conduit-2.1.10.1@httpc_GnY3b37jRTo23ufrVQeHZx:Network.HTTP.Conduit e23ab7fed0c326774717add8e1951d43
+import  -/  http-types-0.9.1@httpt_30VPSAVsdXY5FB3bVeFrTd:Network.HTTP.Types 6465a5cf66dc14972ca7e28a90c52ea9
+import  -/  http-types-0.9.1@httpt_30VPSAVsdXY5FB3bVeFrTd:Network.HTTP.Types.Method fb6786d49f66e22d8bb1c543a347efee
+import  -/  integer-gmp-1.0.0.0:GHC.Integer.Type 371e90fe753f08ddedf0d2657a9ef5c4
+ae66b1ad7118cf2e353b0853686ee2d7
+  $fConstructorUdcmCode :: GHC.Generics.Constructor Main.C1_0UdcmCode
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Main.C1_0UdcmCode
+                  Main.$fConstructorUdcmCode_$cconName
+                  Main.$fConstructorUdcmCode_$s$dmconFixity
+                  Main.$fConstructorUdcmCode_$cconIsRecord -}
+a6f55cc46cc011bc6aafdfacd2735f17
+  $fConstructorUdcmCode1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "UdcmCode"#) -}
+ae66b1ad7118cf2e353b0853686ee2d7
+  $fConstructorUdcmCode_$cconIsRecord ::
+    t Main.C1_0UdcmCode f a -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a4
+                   ds :: t Main.C1_0UdcmCode f a4 ->
+                 GHC.Types.True) -}
+ae66b1ad7118cf2e353b0853686ee2d7
+  $fConstructorUdcmCode_$cconName ::
+    t Main.C1_0UdcmCode f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a4
+                   ds :: t Main.C1_0UdcmCode f a4 ->
+                 Main.$fConstructorUdcmCode1) -}
+ae66b1ad7118cf2e353b0853686ee2d7
+  $fConstructorUdcmCode_$s$dmconFixity ::
+    t Main.C1_0UdcmCode f a -> GHC.Generics.Fixity
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,A>,
+     Unfolding: InlineRule (-1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a4
+                   ds :: t Main.C1_0UdcmCode f a4 ->
+                 GHC.Generics.Prefix) -}
+faba5fc52c777d527523293041fb16a1
+  $fConstructorUserState ::
+    GHC.Generics.Constructor Main.C1_0UserState
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Main.C1_0UserState
+                  Main.$fConstructorUserState_$cconName
+                  Main.$fConstructorUserState_$s$dmconFixity
+                  Main.$fConstructorUserState_$cconIsRecord -}
+71acc3b85de67c33928a38b37fbcafb6
+  $fConstructorUserState1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "UserState"#) -}
+faba5fc52c777d527523293041fb16a1
+  $fConstructorUserState_$cconIsRecord ::
+    t Main.C1_0UserState f a -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a4
+                   ds :: t Main.C1_0UserState f a4 ->
+                 GHC.Types.True) -}
+faba5fc52c777d527523293041fb16a1
+  $fConstructorUserState_$cconName ::
+    t Main.C1_0UserState f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a4
+                   ds :: t Main.C1_0UserState f a4 ->
+                 Main.$fConstructorUserState1) -}
+faba5fc52c777d527523293041fb16a1
+  $fConstructorUserState_$s$dmconFixity ::
+    t Main.C1_0UserState f a -> GHC.Generics.Fixity
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,A>,
+     Unfolding: InlineRule (-1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a4
+                   ds :: t Main.C1_0UserState f a4 ->
+                 GHC.Generics.Prefix) -}
+d94f90625ceecd680051f93a80ac30d5
+  $fDatatypeUdcmCode :: GHC.Generics.Datatype Main.D1UdcmCode
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Main.D1UdcmCode
+                  Main.$fDatatypeUdcmCode_$cdatatypeName
+                  Main.$fDatatypeUdcmCode_$cmoduleName
+                  Main.$fDatatypeUdcmCode_$s$dmisNewtype -}
+24f9afacef984f9e177f758499022f77
+  $fDatatypeUdcmCode1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Main"#) -}
+d94f90625ceecd680051f93a80ac30d5
+  $fDatatypeUdcmCode_$cdatatypeName ::
+    t Main.D1UdcmCode f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a4
+                   ds :: t Main.D1UdcmCode f a4 ->
+                 Main.$fConstructorUdcmCode1) -}
+d94f90625ceecd680051f93a80ac30d5
+  $fDatatypeUdcmCode_$cmoduleName ::
+    t Main.D1UdcmCode f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a4
+                   ds :: t Main.D1UdcmCode f a4 ->
+                 Main.$fDatatypeUdcmCode1) -}
+d94f90625ceecd680051f93a80ac30d5
+  $fDatatypeUdcmCode_$s$dmisNewtype ::
+    t Main.D1UdcmCode f a -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,A>,
+     Unfolding: InlineRule (-1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a4
+                   ds :: t Main.D1UdcmCode f a4 ->
+                 GHC.Types.False) -}
+833395db382199347ec032d917224c5d
+  $fDatatypeUserState :: GHC.Generics.Datatype Main.D1UserState
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Main.D1UserState
+                  Main.$fDatatypeUserState_$cdatatypeName
+                  Main.$fDatatypeUserState_$cmoduleName
+                  Main.$fDatatypeUserState_$s$dmisNewtype -}
+833395db382199347ec032d917224c5d
+  $fDatatypeUserState_$cdatatypeName ::
+    t Main.D1UserState f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a4
+                   ds :: t Main.D1UserState f a4 ->
+                 Main.$fConstructorUserState1) -}
+833395db382199347ec032d917224c5d
+  $fDatatypeUserState_$cmoduleName ::
+    t Main.D1UserState f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a4
+                   ds :: t Main.D1UserState f a4 ->
+                 Main.$fDatatypeUdcmCode1) -}
+833395db382199347ec032d917224c5d
+  $fDatatypeUserState_$s$dmisNewtype ::
+    t Main.D1UserState f a -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,A>,
+     Unfolding: InlineRule (-1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a4
+                   ds :: t Main.D1UserState f a4 ->
+                 GHC.Types.False) -}
+58f01951ffa25859be39fcf719e38f78
+  $fFromJSONUdcmCode :: Data.Aeson.Types.Class.FromJSON Main.UdcmCode
+  DFunId[0]
+  {- Arity: 1, Strictness: <L,U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Main.$fFromJSONUdcmCode_$cparseJSON
+                  `cast`
+                (Sym (Data.Aeson.Types.Class.NTCo:FromJSON[0]
+                          <Main.UdcmCode>_N)) -}
+58f01951ffa25859be39fcf719e38f78
+  $fFromJSONUdcmCode1 ::
+    Data.Aeson.Types.Internal.Options
+    -> GHC.Base.Maybe Data.Text.Internal.Text
+    -> Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Generic.Tagged
+         Data.Aeson.Types.Generic.True
+         (Data.Aeson.Types.Internal.Parser
+            (GHC.Generics.M1
+               GHC.Generics.S
+               Main.S1_0_0UdcmCode
+               (GHC.Generics.Rec0 GHC.Base.String)
+               a3))
+  {- Arity: 2, Strictness: <L,U(U,U,U,U,U,U)><L,1*U>,
+     Unfolding: (\ @ a4
+                   opts :: Data.Aeson.Types.Internal.Options
+                   mlab :: GHC.Base.Maybe Data.Text.Internal.Text ->
+                 let {
+                   a5 :: Data.Aeson.Types.Internal.Object
+                         -> Data.Aeson.Types.Internal.Parser
+                              (GHC.Generics.M1
+                                 GHC.Generics.S
+                                 Main.S1_0_0UdcmCode
+                                 (GHC.Generics.Rec0 GHC.Base.String)
+                                 a4)
+                   = Data.Aeson.Types.Generic.$fFromRecordM10_$cparseRecord
+                       @ Main.S1_0_0UdcmCode
+                       @ (GHC.Generics.K1 GHC.Generics.R GHC.Base.String)
+                       Main.$fFromJSONUdcmCode_$cselName
+                         `cast`
+                       (Sym (GHC.Generics.NTCo:Selector[0] <Main.S1_0_0UdcmCode>_N))
+                       Main.$fFromJSONUdcmCode2
+                         `cast`
+                       (Sym (Data.Aeson.Types.Class.NTCo:GFromJSON[0]
+                                 <GHC.Generics.K1 GHC.Generics.R [GHC.Types.Char]>_N))
+                       @ a4
+                       opts
+                       mlab
+                 } in
+                 (\ x :: Data.Aeson.Types.Internal.Value ->
+                  Data.Aeson.Types.Instances.withObject
+                    @ (GHC.Generics.M1
+                         GHC.Generics.S
+                         Main.S1_0_0UdcmCode
+                         (GHC.Generics.Rec0 GHC.Base.String)
+                         a4)
+                    Data.Aeson.Types.Generic.$fConsFromJSON'fTrue1
+                    a5
+                    x)
+                   `cast`
+                 (<Data.Aeson.Types.Internal.Value>_R
+                  ->_R Sym (Data.Aeson.Types.Generic.NTCo:Tagged[0]
+                                <Data.Aeson.Types.Generic.True>_P
+                                <Data.Aeson.Types.Internal.Parser
+                                   (GHC.Generics.M1
+                                      GHC.Generics.S
+                                      Main.S1_0_0UdcmCode
+                                      (GHC.Generics.Rec0 GHC.Base.String)
+                                      a4)>_R))) -}
+8a84c2257a2c60b81f8bea1cf6cc9415
+  $fFromJSONUdcmCode2 ::
+    Data.Aeson.Types.Internal.Options
+    -> Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser
+         (GHC.Generics.K1 GHC.Generics.R [GHC.Types.Char] a4)
+  {- Arity: 2, Strictness: <L,A><L,1*U>, Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, True)
+                (\ @ a4
+                   w :: Data.Aeson.Types.Internal.Options
+                   w1 :: Data.Aeson.Types.Internal.Value ->
+                 Main.$wa @ a4 w1) -}
+5e50897c78950116fa0f2b3031a0e675
+  $fFromJSONUdcmCode3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "String"#) -}
+14607d47acc6840c5bc12ff03e2f09a9
+  $fFromJSONUdcmCode4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "udcmCode"#) -}
+58f01951ffa25859be39fcf719e38f78
+  $fFromJSONUdcmCode5 ::
+    GHC.Generics.M1
+      GHC.Generics.S
+      Main.S1_0_0UdcmCode
+      (GHC.Generics.K1 GHC.Generics.R GHC.Base.String)
+      a3
+    -> GHC.Types.Bool
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ a4
+                   eta :: GHC.Generics.M1
+                            GHC.Generics.S
+                            Main.S1_0_0UdcmCode
+                            (GHC.Generics.K1 GHC.Generics.R GHC.Base.String)
+                            a4 ->
+                 GHC.Types.True) -}
+58f01951ffa25859be39fcf719e38f78
+  $fFromJSONUdcmCode_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser Main.UdcmCode
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ x :: Data.Aeson.Types.Internal.Value ->
+                 let {
+                   m :: Data.Aeson.Types.Internal.Parser
+                          (GHC.Generics.M1
+                             GHC.Generics.S
+                             Main.S1_0_0UdcmCode
+                             (GHC.Generics.Rec0 GHC.Base.String)
+                             GHC.Prim.Any)
+                   = Data.Aeson.Types.Generic.$fConsFromJSONf_$cconsParseJSON
+                       @ (GHC.Generics.M1
+                            GHC.Generics.S
+                            Main.S1_0_0UdcmCode
+                            (GHC.Generics.Rec0 GHC.Base.String))
+                       @ Data.Aeson.Types.Generic.True
+                       Main.$fFromJSONUdcmCode5
+                         `cast`
+                       (Sym (Data.Aeson.Types.Generic.NTCo:IsRecord[0]
+                                 <GHC.Generics.M1
+                                    GHC.Generics.S
+                                    Main.S1_0_0UdcmCode
+                                    (GHC.Generics.K1 GHC.Generics.R GHC.Base.String)>_N
+                                 <Data.Aeson.Types.Generic.True>_N))
+                       Main.$fFromJSONUdcmCode1
+                         `cast`
+                       (Sym (Data.Aeson.Types.Generic.NTCo:ConsFromJSON'[0]
+                                 <GHC.Generics.M1
+                                    GHC.Generics.S
+                                    Main.S1_0_0UdcmCode
+                                    (GHC.Generics.Rec0 GHC.Base.String)>_N
+                                 <Data.Aeson.Types.Generic.True>_N))
+                       @ GHC.Prim.Any
+                       Data.Aeson.Types.Internal.defaultOptions
+                       x
+                 } in
+                 (\ @ (f1 :: * -> *)
+                    @ r
+                    path :: Data.Aeson.Types.Internal.JSONPath
+                    kf :: Data.Aeson.Types.Internal.Failure f1 r
+                    ks :: Data.Aeson.Types.Internal.Success Main.UdcmCode f1 r ->
+                  m `cast`
+                  (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                       <GHC.Generics.M1
+                          GHC.Generics.S
+                          Main.S1_0_0UdcmCode
+                          (GHC.Generics.Rec0 GHC.Base.String)
+                          GHC.Prim.Any>_R)
+                    @ f1
+                    @ r
+                    path
+                    kf
+                    (\ a86 :: GHC.Generics.M1
+                                GHC.Generics.S
+                                Main.S1_0_0UdcmCode
+                                (GHC.Generics.Rec0 GHC.Base.String)
+                                GHC.Prim.Any ->
+                     ks
+                       (Main.UdcmCode
+                          a86
+                            `cast`
+                          (Trans
+                               (GHC.Generics.NTCo:M1[0]
+                                    <GHC.Generics.S>_P
+                                    <Main.S1_0_0UdcmCode>_P
+                                    <GHC.Generics.K1
+                                       GHC.Generics.R GHC.Base.String>_R <GHC.Prim.Any>_N)
+                               (GHC.Generics.NTCo:K1[0]
+                                    <GHC.Generics.R>_P <GHC.Base.String>_R <GHC.Prim.Any>_P)))))
+                   `cast`
+                 (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                           <Main.UdcmCode>_R))) -}
+58f01951ffa25859be39fcf719e38f78
+  $fFromJSONUdcmCode_$cselName ::
+    t Main.S1_0_0UdcmCode f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a4
+                   ds :: t Main.S1_0_0UdcmCode f a4 ->
+                 Main.$fFromJSONUdcmCode4) -}
+58f01951ffa25859be39fcf719e38f78
+  $fGenericUdcmCode :: GHC.Generics.Generic Main.UdcmCode
+  DFunId[0]
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Main.UdcmCode
+                  Main.$fGenericUdcmCode_$cfrom
+                  Main.$fGenericUdcmCode_$cto -}
+58f01951ffa25859be39fcf719e38f78
+  $fGenericUdcmCode_$cfrom ::
+    Main.UdcmCode -> GHC.Generics.Rep Main.UdcmCode x
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(S),1*U(1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ x ds :: Main.UdcmCode ->
+                 case ds of wild { Main.UdcmCode g1 ->
+                 g1
+                   `cast`
+                 (Trans
+                      (Sym (GHC.Generics.NTCo:K1[0]
+                                <GHC.Generics.R>_P <GHC.Base.String>_R <x>_P))
+                      (Trans
+                           (Sym (GHC.Generics.NTCo:M1[0]
+                                     <GHC.Generics.S>_P
+                                     <Main.S1_0_0UdcmCode>_P
+                                     <GHC.Generics.K1 GHC.Generics.R GHC.Base.String>_R))
+                           (Trans
+                                (Sym (GHC.Generics.NTCo:M1[0]
+                                          <GHC.Generics.C>_P
+                                          <Main.C1_0UdcmCode>_P
+                                          <GHC.Generics.M1
+                                             GHC.Generics.S
+                                             Main.S1_0_0UdcmCode
+                                             (GHC.Generics.K1 GHC.Generics.R GHC.Base.String)>_R))
+                                (Trans
+                                     (Sym (GHC.Generics.NTCo:M1[0]
+                                               <GHC.Generics.D>_P
+                                               <Main.D1UdcmCode>_P
+                                               <GHC.Generics.M1
+                                                  GHC.Generics.C
+                                                  Main.C1_0UdcmCode
+                                                  (GHC.Generics.M1
+                                                     GHC.Generics.S
+                                                     Main.S1_0_0UdcmCode
+                                                     (GHC.Generics.K1
+                                                        GHC.Generics.R GHC.Base.String))>_R))
+                                     (Sub (Sym (Main.Rep_UdcmCode[0]))))) <x>_N)) }) -}
+58f01951ffa25859be39fcf719e38f78
+  $fGenericUdcmCode_$cto ::
+    GHC.Generics.Rep Main.UdcmCode x -> Main.UdcmCode
+  {- Arity: 1, HasNoCafRefs, Strictness: <L,U>m,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ x ds :: GHC.Generics.Rep Main.UdcmCode x ->
+                 Main.UdcmCode
+                   ds
+                     `cast`
+                   (Trans
+                        (Trans
+                             (Sub (Main.Rep_UdcmCode[0]))
+                             (Trans
+                                  (GHC.Generics.NTCo:M1[0]
+                                       <GHC.Generics.D>_P
+                                       <Main.D1UdcmCode>_P
+                                       <GHC.Generics.M1
+                                          GHC.Generics.C
+                                          Main.C1_0UdcmCode
+                                          (GHC.Generics.M1
+                                             GHC.Generics.S
+                                             Main.S1_0_0UdcmCode
+                                             (GHC.Generics.K1 GHC.Generics.R GHC.Base.String))>_R)
+                                  (Trans
+                                       (GHC.Generics.NTCo:M1[0]
+                                            <GHC.Generics.C>_P
+                                            <Main.C1_0UdcmCode>_P
+                                            <GHC.Generics.M1
+                                               GHC.Generics.S
+                                               Main.S1_0_0UdcmCode
+                                               (GHC.Generics.K1 GHC.Generics.R GHC.Base.String)>_R)
+                                       (GHC.Generics.NTCo:M1[0]
+                                            <GHC.Generics.S>_P
+                                            <Main.S1_0_0UdcmCode>_P
+                                            <GHC.Generics.K1
+                                               GHC.Generics.R GHC.Base.String>_R))) <x>_N)
+                        (GHC.Generics.NTCo:K1[0]
+                             <GHC.Generics.R>_P <GHC.Base.String>_R <x>_P))) -}
+39ff55ea481fafc2e0f877a3cdbc8176
+  $fGenericUserState :: GHC.Generics.Generic Main.UserState
+  DFunId[0]
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Main.UserState
+                  Main.$fGenericUserState_$cfrom
+                  Main.$fGenericUserState_$cto -}
+39ff55ea481fafc2e0f877a3cdbc8176
+  $fGenericUserState_$cfrom ::
+    Main.UserState -> GHC.Generics.Rep Main.UserState x
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U,U,U,U,U,U,U)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ x ds :: Main.UserState ->
+                 case ds of wild { Main.UserState g1 g2 g3 g4 g5 g6 g7 g8 ->
+                 (GHC.Generics.:*:
+                    @ ((GHC.Generics.M1
+                          GHC.Generics.S
+                          Main.S1_0_0UserState
+                          (GHC.Generics.K1 GHC.Generics.R GHC.Base.String)
+                        GHC.Generics.:*: GHC.Generics.M1
+                                           GHC.Generics.S
+                                           Main.S1_0_1UserState
+                                           (GHC.Generics.K1
+                                              GHC.Generics.R GHC.Integer.Type.Integer))
+                       GHC.Generics.:*: (GHC.Generics.M1
+                                           GHC.Generics.S
+                                           Main.S1_0_2UserState
+                                           (GHC.Generics.K1 GHC.Generics.R GHC.Base.String)
+                                         GHC.Generics.:*: GHC.Generics.M1
+                                                            GHC.Generics.S
+                                                            Main.S1_0_3UserState
+                                                            (GHC.Generics.K1
+                                                               GHC.Generics.R GHC.Types.Float)))
+                    @ ((GHC.Generics.M1
+                          GHC.Generics.S
+                          Main.S1_0_4UserState
+                          (GHC.Generics.K1 GHC.Generics.R GHC.Types.Float)
+                        GHC.Generics.:*: GHC.Generics.M1
+                                           GHC.Generics.S
+                                           Main.S1_0_5UserState
+                                           (GHC.Generics.K1 GHC.Generics.R GHC.Base.String))
+                       GHC.Generics.:*: (GHC.Generics.M1
+                                           GHC.Generics.S
+                                           Main.S1_0_6UserState
+                                           (GHC.Generics.K1 GHC.Generics.R GHC.Base.String)
+                                         GHC.Generics.:*: GHC.Generics.M1
+                                                            GHC.Generics.S
+                                                            Main.S1_0_7UserState
+                                                            (GHC.Generics.K1
+                                                               GHC.Generics.R GHC.Types.Float)))
+                    @ x
+                    (GHC.Generics.:*:
+                       @ (GHC.Generics.M1
+                            GHC.Generics.S
+                            Main.S1_0_0UserState
+                            (GHC.Generics.K1 GHC.Generics.R GHC.Base.String)
+                          GHC.Generics.:*: GHC.Generics.M1
+                                             GHC.Generics.S
+                                             Main.S1_0_1UserState
+                                             (GHC.Generics.K1
+                                                GHC.Generics.R GHC.Integer.Type.Integer))
+                       @ (GHC.Generics.M1
+                            GHC.Generics.S
+                            Main.S1_0_2UserState
+                            (GHC.Generics.K1 GHC.Generics.R GHC.Base.String)
+                          GHC.Generics.:*: GHC.Generics.M1
+                                             GHC.Generics.S
+                                             Main.S1_0_3UserState
+                                             (GHC.Generics.K1 GHC.Generics.R GHC.Types.Float))
+                       @ x
+                       (GHC.Generics.:*:
+                          @ (GHC.Generics.M1
+                               GHC.Generics.S
+                               Main.S1_0_0UserState
+                               (GHC.Generics.K1 GHC.Generics.R GHC.Base.String))
+                          @ (GHC.Generics.M1
+                               GHC.Generics.S
+                               Main.S1_0_1UserState
+                               (GHC.Generics.K1 GHC.Generics.R GHC.Integer.Type.Integer))
+                          @ x
+                          g1
+                            `cast`
+                          (Trans
+                               (Sym (GHC.Generics.NTCo:K1[0]
+                                         <GHC.Generics.R>_P <GHC.Base.String>_R <x>_P))
+                               (Sym (GHC.Generics.NTCo:M1[0]
+                                         <GHC.Generics.S>_P
+                                         <Main.S1_0_0UserState>_P
+                                         <GHC.Generics.K1 GHC.Generics.R GHC.Base.String>_R) <x>_N))
+                          g2
+                            `cast`
+                          (Trans
+                               (Sym (GHC.Generics.NTCo:K1[0]
+                                         <GHC.Generics.R>_P <GHC.Integer.Type.Integer>_R <x>_P))
+                               (Sym (GHC.Generics.NTCo:M1[0]
+                                         <GHC.Generics.S>_P
+                                         <Main.S1_0_1UserState>_P
+                                         <GHC.Generics.K1
+                                            GHC.Generics.R GHC.Integer.Type.Integer>_R) <x>_N)))
+                       (GHC.Generics.:*:
+                          @ (GHC.Generics.M1
+                               GHC.Generics.S
+                               Main.S1_0_2UserState
+                               (GHC.Generics.K1 GHC.Generics.R GHC.Base.String))
+                          @ (GHC.Generics.M1
+                               GHC.Generics.S
+                               Main.S1_0_3UserState
+                               (GHC.Generics.K1 GHC.Generics.R GHC.Types.Float))
+                          @ x
+                          g3
+                            `cast`
+                          (Trans
+                               (Sym (GHC.Generics.NTCo:K1[0]
+                                         <GHC.Generics.R>_P <GHC.Base.String>_R <x>_P))
+                               (Sym (GHC.Generics.NTCo:M1[0]
+                                         <GHC.Generics.S>_P
+                                         <Main.S1_0_2UserState>_P
+                                         <GHC.Generics.K1 GHC.Generics.R GHC.Base.String>_R) <x>_N))
+                          g4
+                            `cast`
+                          (Trans
+                               (Sym (GHC.Generics.NTCo:K1[0]
+                                         <GHC.Generics.R>_P <GHC.Types.Float>_R <x>_P))
+                               (Sym (GHC.Generics.NTCo:M1[0]
+                                         <GHC.Generics.S>_P
+                                         <Main.S1_0_3UserState>_P
+                                         <GHC.Generics.K1
+                                            GHC.Generics.R GHC.Types.Float>_R) <x>_N))))
+                    (GHC.Generics.:*:
+                       @ (GHC.Generics.M1
+                            GHC.Generics.S
+                            Main.S1_0_4UserState
+                            (GHC.Generics.K1 GHC.Generics.R GHC.Types.Float)
+                          GHC.Generics.:*: GHC.Generics.M1
+                                             GHC.Generics.S
+                                             Main.S1_0_5UserState
+                                             (GHC.Generics.K1 GHC.Generics.R GHC.Base.String))
+                       @ (GHC.Generics.M1
+                            GHC.Generics.S
+                            Main.S1_0_6UserState
+                            (GHC.Generics.K1 GHC.Generics.R GHC.Base.String)
+                          GHC.Generics.:*: GHC.Generics.M1
+                                             GHC.Generics.S
+                                             Main.S1_0_7UserState
+                                             (GHC.Generics.K1 GHC.Generics.R GHC.Types.Float))
+                       @ x
+                       (GHC.Generics.:*:
+                          @ (GHC.Generics.M1
+                               GHC.Generics.S
+                               Main.S1_0_4UserState
+                               (GHC.Generics.K1 GHC.Generics.R GHC.Types.Float))
+                          @ (GHC.Generics.M1
+                               GHC.Generics.S
+                               Main.S1_0_5UserState
+                               (GHC.Generics.K1 GHC.Generics.R GHC.Base.String))
+                          @ x
+                          g5
+                            `cast`
+                          (Trans
+                               (Sym (GHC.Generics.NTCo:K1[0]
+                                         <GHC.Generics.R>_P <GHC.Types.Float>_R <x>_P))
+                               (Sym (GHC.Generics.NTCo:M1[0]
+                                         <GHC.Generics.S>_P
+                                         <Main.S1_0_4UserState>_P
+                                         <GHC.Generics.K1 GHC.Generics.R GHC.Types.Float>_R) <x>_N))
+                          g6
+                            `cast`
+                          (Trans
+                               (Sym (GHC.Generics.NTCo:K1[0]
+                                         <GHC.Generics.R>_P <GHC.Base.String>_R <x>_P))
+                               (Sym (GHC.Generics.NTCo:M1[0]
+                                         <GHC.Generics.S>_P
+                                         <Main.S1_0_5UserState>_P
+                                         <GHC.Generics.K1
+                                            GHC.Generics.R GHC.Base.String>_R) <x>_N)))
+                       (GHC.Generics.:*:
+                          @ (GHC.Generics.M1
+                               GHC.Generics.S
+                               Main.S1_0_6UserState
+                               (GHC.Generics.K1 GHC.Generics.R GHC.Base.String))
+                          @ (GHC.Generics.M1
+                               GHC.Generics.S
+                               Main.S1_0_7UserState
+                               (GHC.Generics.K1 GHC.Generics.R GHC.Types.Float))
+                          @ x
+                          g7
+                            `cast`
+                          (Trans
+                               (Sym (GHC.Generics.NTCo:K1[0]
+                                         <GHC.Generics.R>_P <GHC.Base.String>_R <x>_P))
+                               (Sym (GHC.Generics.NTCo:M1[0]
+                                         <GHC.Generics.S>_P
+                                         <Main.S1_0_6UserState>_P
+                                         <GHC.Generics.K1 GHC.Generics.R GHC.Base.String>_R) <x>_N))
+                          g8
+                            `cast`
+                          (Trans
+                               (Sym (GHC.Generics.NTCo:K1[0]
+                                         <GHC.Generics.R>_P <GHC.Types.Float>_R <x>_P))
+                               (Sym (GHC.Generics.NTCo:M1[0]
+                                         <GHC.Generics.S>_P
+                                         <Main.S1_0_7UserState>_P
+                                         <GHC.Generics.K1
+                                            GHC.Generics.R GHC.Types.Float>_R) <x>_N)))))
+                   `cast`
+                 (Trans
+                      (Sym (GHC.Generics.NTCo:M1[0]
+                                <GHC.Generics.C>_P
+                                <Main.C1_0UserState>_P
+                                <((GHC.Generics.M1
+                                     GHC.Generics.S
+                                     Main.S1_0_0UserState
+                                     (GHC.Generics.K1 GHC.Generics.R GHC.Base.String)
+                                   GHC.Generics.:*: GHC.Generics.M1
+                                                      GHC.Generics.S
+                                                      Main.S1_0_1UserState
+                                                      (GHC.Generics.K1
+                                                         GHC.Generics.R GHC.Integer.Type.Integer))
+                                  GHC.Generics.:*: (GHC.Generics.M1
+                                                      GHC.Generics.S
+                                                      Main.S1_0_2UserState
+                                                      (GHC.Generics.K1
+                                                         GHC.Generics.R GHC.Base.String)
+                                                    GHC.Generics.:*: GHC.Generics.M1
+                                                                       GHC.Generics.S
+                                                                       Main.S1_0_3UserState
+                                                                       (GHC.Generics.K1
+                                                                          GHC.Generics.R
+                                                                          GHC.Types.Float)))
+                                 GHC.Generics.:*: ((GHC.Generics.M1
+                                                      GHC.Generics.S
+                                                      Main.S1_0_4UserState
+                                                      (GHC.Generics.K1
+                                                         GHC.Generics.R GHC.Types.Float)
+                                                    GHC.Generics.:*: GHC.Generics.M1
+                                                                       GHC.Generics.S
+                                                                       Main.S1_0_5UserState
+                                                                       (GHC.Generics.K1
+                                                                          GHC.Generics.R
+                                                                          GHC.Base.String))
+                                                   GHC.Generics.:*: (GHC.Generics.M1
+                                                                       GHC.Generics.S
+                                                                       Main.S1_0_6UserState
+                                                                       (GHC.Generics.K1
+                                                                          GHC.Generics.R
+                                                                          GHC.Base.String)
+                                                                     GHC.Generics.:*: GHC.Generics.M1
+                                                                                        GHC.Generics.S
+                                                                                        Main.S1_0_7UserState
+                                                                                        (GHC.Generics.K1
+                                                                                           GHC.Generics.R
+                                                                                           GHC.Types.Float)))>_R))
+                      (Trans
+                           (Sym (GHC.Generics.NTCo:M1[0]
+                                     <GHC.Generics.D>_P
+                                     <Main.D1UserState>_P
+                                     <GHC.Generics.M1
+                                        GHC.Generics.C
+                                        Main.C1_0UserState
+                                        (((GHC.Generics.M1
+                                             GHC.Generics.S
+                                             Main.S1_0_0UserState
+                                             (GHC.Generics.K1 GHC.Generics.R GHC.Base.String)
+                                           GHC.Generics.:*: GHC.Generics.M1
+                                                              GHC.Generics.S
+                                                              Main.S1_0_1UserState
+                                                              (GHC.Generics.K1
+                                                                 GHC.Generics.R
+                                                                 GHC.Integer.Type.Integer))
+                                          GHC.Generics.:*: (GHC.Generics.M1
+                                                              GHC.Generics.S
+                                                              Main.S1_0_2UserState
+                                                              (GHC.Generics.K1
+                                                                 GHC.Generics.R GHC.Base.String)
+                                                            GHC.Generics.:*: GHC.Generics.M1
+                                                                               GHC.Generics.S
+                                                                               Main.S1_0_3UserState
+                                                                               (GHC.Generics.K1
+                                                                                  GHC.Generics.R
+                                                                                  GHC.Types.Float)))
+                                         GHC.Generics.:*: ((GHC.Generics.M1
+                                                              GHC.Generics.S
+                                                              Main.S1_0_4UserState
+                                                              (GHC.Generics.K1
+                                                                 GHC.Generics.R GHC.Types.Float)
+                                                            GHC.Generics.:*: GHC.Generics.M1
+                                                                               GHC.Generics.S
+                                                                               Main.S1_0_5UserState
+                                                                               (GHC.Generics.K1
+                                                                                  GHC.Generics.R
+                                                                                  GHC.Base.String))
+                                                           GHC.Generics.:*: (GHC.Generics.M1
+                                                                               GHC.Generics.S
+                                                                               Main.S1_0_6UserState
+                                                                               (GHC.Generics.K1
+                                                                                  GHC.Generics.R
+                                                                                  GHC.Base.String)
+                                                                             GHC.Generics.:*: GHC.Generics.M1
+                                                                                                GHC.Generics.S
+                                                                                                Main.S1_0_7UserState
+                                                                                                (GHC.Generics.K1
+                                                                                                   GHC.Generics.R
+                                                                                                   GHC.Types.Float))))>_R))
+                           (Sub (Sym (Main.Rep_UserState[0])))) <x>_N) }) -}
+39ff55ea481fafc2e0f877a3cdbc8176
+  $fGenericUserState_$cto ::
+    GHC.Generics.Rep Main.UserState x -> Main.UserState
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(S(SS)S(SS)),1*U(1*U(1*U(U,U),1*U(U,U)),1*U(1*U(U,U),1*U(U,U)))>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ x ds :: GHC.Generics.Rep Main.UserState x ->
+                 case ds
+                        `cast`
+                      (Trans
+                           (Sub (Main.Rep_UserState[0]))
+                           (Trans
+                                (GHC.Generics.NTCo:M1[0]
+                                     <GHC.Generics.D>_P
+                                     <Main.D1UserState>_P
+                                     <GHC.Generics.M1
+                                        GHC.Generics.C
+                                        Main.C1_0UserState
+                                        (((GHC.Generics.M1
+                                             GHC.Generics.S
+                                             Main.S1_0_0UserState
+                                             (GHC.Generics.K1 GHC.Generics.R GHC.Base.String)
+                                           GHC.Generics.:*: GHC.Generics.M1
+                                                              GHC.Generics.S
+                                                              Main.S1_0_1UserState
+                                                              (GHC.Generics.K1
+                                                                 GHC.Generics.R
+                                                                 GHC.Integer.Type.Integer))
+                                          GHC.Generics.:*: (GHC.Generics.M1
+                                                              GHC.Generics.S
+                                                              Main.S1_0_2UserState
+                                                              (GHC.Generics.K1
+                                                                 GHC.Generics.R GHC.Base.String)
+                                                            GHC.Generics.:*: GHC.Generics.M1
+                                                                               GHC.Generics.S
+                                                                               Main.S1_0_3UserState
+                                                                               (GHC.Generics.K1
+                                                                                  GHC.Generics.R
+                                                                                  GHC.Types.Float)))
+                                         GHC.Generics.:*: ((GHC.Generics.M1
+                                                              GHC.Generics.S
+                                                              Main.S1_0_4UserState
+                                                              (GHC.Generics.K1
+                                                                 GHC.Generics.R GHC.Types.Float)
+                                                            GHC.Generics.:*: GHC.Generics.M1
+                                                                               GHC.Generics.S
+                                                                               Main.S1_0_5UserState
+                                                                               (GHC.Generics.K1
+                                                                                  GHC.Generics.R
+                                                                                  GHC.Base.String))
+                                                           GHC.Generics.:*: (GHC.Generics.M1
+                                                                               GHC.Generics.S
+                                                                               Main.S1_0_6UserState
+                                                                               (GHC.Generics.K1
+                                                                                  GHC.Generics.R
+                                                                                  GHC.Base.String)
+                                                                             GHC.Generics.:*: GHC.Generics.M1
+                                                                                                GHC.Generics.S
+                                                                                                Main.S1_0_7UserState
+                                                                                                (GHC.Generics.K1
+                                                                                                   GHC.Generics.R
+                                                                                                   GHC.Types.Float))))>_R)
+                                (GHC.Generics.NTCo:M1[0]
+                                     <GHC.Generics.C>_P
+                                     <Main.C1_0UserState>_P
+                                     <((GHC.Generics.M1
+                                          GHC.Generics.S
+                                          Main.S1_0_0UserState
+                                          (GHC.Generics.K1 GHC.Generics.R GHC.Base.String)
+                                        GHC.Generics.:*: GHC.Generics.M1
+                                                           GHC.Generics.S
+                                                           Main.S1_0_1UserState
+                                                           (GHC.Generics.K1
+                                                              GHC.Generics.R
+                                                              GHC.Integer.Type.Integer))
+                                       GHC.Generics.:*: (GHC.Generics.M1
+                                                           GHC.Generics.S
+                                                           Main.S1_0_2UserState
+                                                           (GHC.Generics.K1
+                                                              GHC.Generics.R GHC.Base.String)
+                                                         GHC.Generics.:*: GHC.Generics.M1
+                                                                            GHC.Generics.S
+                                                                            Main.S1_0_3UserState
+                                                                            (GHC.Generics.K1
+                                                                               GHC.Generics.R
+                                                                               GHC.Types.Float)))
+                                      GHC.Generics.:*: ((GHC.Generics.M1
+                                                           GHC.Generics.S
+                                                           Main.S1_0_4UserState
+                                                           (GHC.Generics.K1
+                                                              GHC.Generics.R GHC.Types.Float)
+                                                         GHC.Generics.:*: GHC.Generics.M1
+                                                                            GHC.Generics.S
+                                                                            Main.S1_0_5UserState
+                                                                            (GHC.Generics.K1
+                                                                               GHC.Generics.R
+                                                                               GHC.Base.String))
+                                                        GHC.Generics.:*: (GHC.Generics.M1
+                                                                            GHC.Generics.S
+                                                                            Main.S1_0_6UserState
+                                                                            (GHC.Generics.K1
+                                                                               GHC.Generics.R
+                                                                               GHC.Base.String)
+                                                                          GHC.Generics.:*: GHC.Generics.M1
+                                                                                             GHC.Generics.S
+                                                                                             Main.S1_0_7UserState
+                                                                                             (GHC.Generics.K1
+                                                                                                GHC.Generics.R
+                                                                                                GHC.Types.Float)))>_R)) <x>_N) of wild { GHC.Generics.:*: ds1 ds2 ->
+                 case ds1 of wild1 { GHC.Generics.:*: ds3 ds4 ->
+                 case ds3 of wild2 { GHC.Generics.:*: ds5 ds6 ->
+                 case ds4 of wild3 { GHC.Generics.:*: ds7 ds8 ->
+                 case ds2 of wild4 { GHC.Generics.:*: ds9 ds10 ->
+                 case ds9 of wild5 { GHC.Generics.:*: ds11 ds12 ->
+                 case ds10 of wild6 { GHC.Generics.:*: ds13 ds14 ->
+                 Main.UserState
+                   ds5
+                     `cast`
+                   (Trans
+                        (GHC.Generics.NTCo:M1[0]
+                             <GHC.Generics.S>_P
+                             <Main.S1_0_0UserState>_P
+                             <GHC.Generics.K1 GHC.Generics.R GHC.Base.String>_R <x>_N)
+                        (GHC.Generics.NTCo:K1[0]
+                             <GHC.Generics.R>_P <GHC.Base.String>_R <x>_P))
+                   ds6
+                     `cast`
+                   (Trans
+                        (GHC.Generics.NTCo:M1[0]
+                             <GHC.Generics.S>_P
+                             <Main.S1_0_1UserState>_P
+                             <GHC.Generics.K1 GHC.Generics.R GHC.Integer.Type.Integer>_R <x>_N)
+                        (GHC.Generics.NTCo:K1[0]
+                             <GHC.Generics.R>_P <GHC.Integer.Type.Integer>_R <x>_P))
+                   ds7
+                     `cast`
+                   (Trans
+                        (GHC.Generics.NTCo:M1[0]
+                             <GHC.Generics.S>_P
+                             <Main.S1_0_2UserState>_P
+                             <GHC.Generics.K1 GHC.Generics.R GHC.Base.String>_R <x>_N)
+                        (GHC.Generics.NTCo:K1[0]
+                             <GHC.Generics.R>_P <GHC.Base.String>_R <x>_P))
+                   ds8
+                     `cast`
+                   (Trans
+                        (GHC.Generics.NTCo:M1[0]
+                             <GHC.Generics.S>_P
+                             <Main.S1_0_3UserState>_P
+                             <GHC.Generics.K1 GHC.Generics.R GHC.Types.Float>_R <x>_N)
+                        (GHC.Generics.NTCo:K1[0]
+                             <GHC.Generics.R>_P <GHC.Types.Float>_R <x>_P))
+                   ds11
+                     `cast`
+                   (Trans
+                        (GHC.Generics.NTCo:M1[0]
+                             <GHC.Generics.S>_P
+                             <Main.S1_0_4UserState>_P
+                             <GHC.Generics.K1 GHC.Generics.R GHC.Types.Float>_R <x>_N)
+                        (GHC.Generics.NTCo:K1[0]
+                             <GHC.Generics.R>_P <GHC.Types.Float>_R <x>_P))
+                   ds12
+                     `cast`
+                   (Trans
+                        (GHC.Generics.NTCo:M1[0]
+                             <GHC.Generics.S>_P
+                             <Main.S1_0_5UserState>_P
+                             <GHC.Generics.K1 GHC.Generics.R GHC.Base.String>_R <x>_N)
+                        (GHC.Generics.NTCo:K1[0]
+                             <GHC.Generics.R>_P <GHC.Base.String>_R <x>_P))
+                   ds13
+                     `cast`
+                   (Trans
+                        (GHC.Generics.NTCo:M1[0]
+                             <GHC.Generics.S>_P
+                             <Main.S1_0_6UserState>_P
+                             <GHC.Generics.K1 GHC.Generics.R GHC.Base.String>_R <x>_N)
+                        (GHC.Generics.NTCo:K1[0]
+                             <GHC.Generics.R>_P <GHC.Base.String>_R <x>_P))
+                   ds14
+                     `cast`
+                   (Trans
+                        (GHC.Generics.NTCo:M1[0]
+                             <GHC.Generics.S>_P
+                             <Main.S1_0_7UserState>_P
+                             <GHC.Generics.K1 GHC.Generics.R GHC.Types.Float>_R <x>_N)
+                        (GHC.Generics.NTCo:K1[0]
+                             <GHC.Generics.R>_P <GHC.Types.Float>_R <x>_P)) } } } } } } }) -}
+d5a160bf76151bb9860d03b69eae5b61
+  $fRedisWritableUserState :: Main.RedisWritable Main.UserState
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Main.UserState
+                  Main.$fRedisWritableUserState_$cwriteForm
+                  Main.$fRedisWritableUserState_$cgenKey -}
+7e030bb24cfc3051d591b96cb030ac20
+  $fRedisWritableUserState_$cgenKey ::
+    Main.UserState -> Data.ByteString.Internal.ByteString
+  {- Arity: 1, Strictness: <L,1*U(1*U,U,A,A,A,A,A,A)>,
+     Unfolding: (\ st :: Main.UserState ->
+                 let {
+                   cs :: [GHC.Types.Char]
+                   = case st of wild { Main.UserState ds ds1 ds2 ds3 ds4 ds5 ds6 ds7 ->
+                     GHC.Base.++
+                       @ GHC.Types.Char
+                       ds
+                       (GHC.CString.unpackAppendCString#
+                          ":"#
+                          (case GHC.Show.$w$cshowsPrec1
+                                  0
+                                  ds1
+                                  (GHC.Types.[] @ GHC.Types.Char) of ww2 { (#,#) ww3 ww4 ->
+                           GHC.Types.: @ GHC.Types.Char ww3 ww4 })) }
+                 } in
+                 Data.ByteString.Internal.unsafePackLenChars
+                   (case GHC.List.$wlenAcc @ GHC.Types.Char cs 0 of ww2 { DEFAULT ->
+                    GHC.Types.I# ww2 })
+                   cs) -}
+ab63d88042a57063ae4cef1aa3692ade
+  $fRedisWritableUserState_$cwriteForm ::
+    Main.UserState
+    -> [(Data.ByteString.Internal.ByteString,
+         Data.ByteString.Internal.ByteString)]
+  {- Arity: 1,
+     Strictness: <L,U(1*U,U,1*U,1*U(U),1*U(U),1*U,1*U,1*U(U))>m2,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ w :: Main.UserState ->
+                 case Main.$w$cwriteForm w of ww { (#,#) ww1 ww2 ->
+                 GHC.Types.:
+                   @ (Data.ByteString.Internal.ByteString,
+                      Data.ByteString.Internal.ByteString)
+                   ww1
+                   ww2 }) -}
+58f01951ffa25859be39fcf719e38f78
+  $fSelectorUdcmCode :: GHC.Generics.Selector Main.S1_0_0UdcmCode
+  DFunId[0]
+  {- Arity: 1, Strictness: <L,A>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Main.$fFromJSONUdcmCode_$cselName
+                  `cast`
+                (Sym (GHC.Generics.NTCo:Selector[0] <Main.S1_0_0UdcmCode>_N)) -}
+2bf3b718c370ed314e86ab06a0fc43a1
+  $fSelectorUserState :: GHC.Generics.Selector Main.S1_0_0UserState
+  DFunId[0]
+  {- Arity: 1, Strictness: <L,A>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Main.$fSelectorUserState_$cselName
+                  `cast`
+                (Sym (GHC.Generics.NTCo:Selector[0] <Main.S1_0_0UserState>_N)) -}
+5a0b1ce5dab25d8a6b96a715d28854dd
+  $fSelectorUserState0 :: GHC.Generics.Selector Main.S1_0_1UserState
+  DFunId[0]
+  {- Arity: 1, Strictness: <L,A>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Main.$fSelectorUserState0_$cselName
+                  `cast`
+                (Sym (GHC.Generics.NTCo:Selector[0] <Main.S1_0_1UserState>_N)) -}
+5a0b1ce5dab25d8a6b96a715d28854dd
+  $fSelectorUserState0_$cselName ::
+    t Main.S1_0_1UserState f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a4
+                   ds :: t Main.S1_0_1UserState f a4 ->
+                 Main.$fSelectorUserState8) -}
+275870e0406ba9bb5e66899ee62189c9
+  $fSelectorUserState1 :: GHC.Generics.Selector Main.S1_0_2UserState
+  DFunId[0]
+  {- Arity: 1, Strictness: <L,A>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Main.$fSelectorUserState1_$cselName
+                  `cast`
+                (Sym (GHC.Generics.NTCo:Selector[0] <Main.S1_0_2UserState>_N)) -}
+14f471ef908b159dbdd421214aa47ddd
+  $fSelectorUserState10 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "betaConfidence"#) -}
+a645c8407d679d89356465c79a0249ef
+  $fSelectorUserState11 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "gammaConfidence"#) -}
+4d1d3e1062f70cf6c84f0f41ebaef47f
+  $fSelectorUserState12 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "predictionLevel"#) -}
+83d133e18062b4dcba07e8397dfeaba5
+  $fSelectorUserState13 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "nearTagLocationCode"#) -}
+ce585a37e4c65b8ca0730c0930812628
+  $fSelectorUserState14 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "nearTagConfidence"#) -}
+275870e0406ba9bb5e66899ee62189c9
+  $fSelectorUserState1_$cselName ::
+    t Main.S1_0_2UserState f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a4
+                   ds :: t Main.S1_0_2UserState f a4 ->
+                 Main.$fSelectorUserState9) -}
+bac8cd4039cf072fd43b1f2417d6b530
+  $fSelectorUserState2 :: GHC.Generics.Selector Main.S1_0_3UserState
+  DFunId[0]
+  {- Arity: 1, Strictness: <L,A>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Main.$fSelectorUserState2_$cselName
+                  `cast`
+                (Sym (GHC.Generics.NTCo:Selector[0] <Main.S1_0_3UserState>_N)) -}
+bac8cd4039cf072fd43b1f2417d6b530
+  $fSelectorUserState2_$cselName ::
+    t Main.S1_0_3UserState f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a4
+                   ds :: t Main.S1_0_3UserState f a4 ->
+                 Main.$fSelectorUserState10) -}
+2b0d5bc4e8225cb3e03d28cec0512a90
+  $fSelectorUserState3 :: GHC.Generics.Selector Main.S1_0_4UserState
+  DFunId[0]
+  {- Arity: 1, Strictness: <L,A>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Main.$fSelectorUserState3_$cselName
+                  `cast`
+                (Sym (GHC.Generics.NTCo:Selector[0] <Main.S1_0_4UserState>_N)) -}
+2b0d5bc4e8225cb3e03d28cec0512a90
+  $fSelectorUserState3_$cselName ::
+    t Main.S1_0_4UserState f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a4
+                   ds :: t Main.S1_0_4UserState f a4 ->
+                 Main.$fSelectorUserState11) -}
+56b9e51a44e4e2f703042b90c8509ee7
+  $fSelectorUserState4 :: GHC.Generics.Selector Main.S1_0_5UserState
+  DFunId[0]
+  {- Arity: 1, Strictness: <L,A>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Main.$fSelectorUserState4_$cselName
+                  `cast`
+                (Sym (GHC.Generics.NTCo:Selector[0] <Main.S1_0_5UserState>_N)) -}
+56b9e51a44e4e2f703042b90c8509ee7
+  $fSelectorUserState4_$cselName ::
+    t Main.S1_0_5UserState f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a4
+                   ds :: t Main.S1_0_5UserState f a4 ->
+                 Main.$fSelectorUserState12) -}
+cecdb171e823a42904db8fd40f83e9b4
+  $fSelectorUserState5 :: GHC.Generics.Selector Main.S1_0_6UserState
+  DFunId[0]
+  {- Arity: 1, Strictness: <L,A>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Main.$fSelectorUserState5_$cselName
+                  `cast`
+                (Sym (GHC.Generics.NTCo:Selector[0] <Main.S1_0_6UserState>_N)) -}
+cecdb171e823a42904db8fd40f83e9b4
+  $fSelectorUserState5_$cselName ::
+    t Main.S1_0_6UserState f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a4
+                   ds :: t Main.S1_0_6UserState f a4 ->
+                 Main.$fSelectorUserState13) -}
+39ff55ea481fafc2e0f877a3cdbc8176
+  $fSelectorUserState6 :: GHC.Generics.Selector Main.S1_0_7UserState
+  DFunId[0]
+  {- Arity: 1, Strictness: <L,A>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Main.$fSelectorUserState6_$cselName
+                  `cast`
+                (Sym (GHC.Generics.NTCo:Selector[0] <Main.S1_0_7UserState>_N)) -}
+39ff55ea481fafc2e0f877a3cdbc8176
+  $fSelectorUserState6_$cselName ::
+    t Main.S1_0_7UserState f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a4
+                   ds :: t Main.S1_0_7UserState f a4 ->
+                 Main.$fSelectorUserState14) -}
+f554e57be5d707b382f89ef892356ee5
+  $fSelectorUserState7 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "udcm"#) -}
+384bf6308b981b26249f9310b16a6133
+  $fSelectorUserState8 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "timestamp"#) -}
+ed9af485c21b19cb26c43c7dd8cdf794
+  $fSelectorUserState9 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "locationCode"#) -}
+2bf3b718c370ed314e86ab06a0fc43a1
+  $fSelectorUserState_$cselName ::
+    t Main.S1_0_0UserState f a -> [GHC.Types.Char]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ @ (t :: * -> (* -> *) -> * -> *)
+                   @ (f :: * -> *)
+                   @ a4
+                   ds :: t Main.S1_0_0UserState f a4 ->
+                 Main.$fSelectorUserState7) -}
+58f01951ffa25859be39fcf719e38f78
+  $fShowUdcmCode :: GHC.Show.Show Main.UdcmCode
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Main.UdcmCode
+                  Main.$fShowUdcmCode_$cshowsPrec
+                  Main.$fShowUdcmCode_$cshow
+                  Main.$fShowUdcmCode_$cshowList -}
+58f01951ffa25859be39fcf719e38f78
+  $fShowUdcmCode1 :: Main.UdcmCode -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (\ w :: Main.UdcmCode w1 :: GHC.Base.String ->
+                 case w of ww { Main.UdcmCode ww1 ->
+                 Main.$w$cshowsPrec 0 ww1 w1 }) -}
+4592670847f40c31b4d5e04cd2d92ced
+  $fShowUdcmCode2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "}"#) -}
+61ab46f27d29c802e2851f8b1ea0a492
+  $fShowUdcmCode3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "udcmCode = "#) -}
+ea0884aed4f505b505983faf656bd55c
+  $fShowUdcmCode4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "UdcmCode {"#) -}
+58f01951ffa25859be39fcf719e38f78
+  $fShowUdcmCode_$cshow :: Main.UdcmCode -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U(1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ x :: Main.UdcmCode ->
+                 Main.$fShowUdcmCode_$cshowsPrec
+                   GHC.Show.shows18
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+58f01951ffa25859be39fcf719e38f78
+  $fShowUdcmCode_$cshowList :: [Main.UdcmCode] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ Main.UdcmCode
+                   Main.$fShowUdcmCode1) -}
+58f01951ffa25859be39fcf719e38f78
+  $fShowUdcmCode_$cshowsPrec ::
+    GHC.Types.Int -> Main.UdcmCode -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <S,1*U(U)><S,1*U(1*U)><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ w :: GHC.Types.Int w1 :: Main.UdcmCode w2 :: GHC.Base.String ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { Main.UdcmCode ww3 ->
+                 Main.$w$cshowsPrec ww1 ww3 w2 } }) -}
+39ff55ea481fafc2e0f877a3cdbc8176
+  $fShowUserState :: GHC.Show.Show Main.UserState
+  DFunId[0]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Main.UserState
+                  Main.$fShowUserState_$cshowsPrec
+                  Main.$fShowUserState_$cshow
+                  Main.$fShowUserState_$cshowList -}
+39ff55ea481fafc2e0f877a3cdbc8176
+  $fShowUserState1 :: Main.UserState -> GHC.Show.ShowS
+  {- Arity: 1,
+     Unfolding: (\ w :: Main.UserState ->
+                 case w of ww { Main.UserState ww1 ww2 ww3 ww4 ww5 ww6 ww7 ww8 ->
+                 Main.$w$cshowsPrec1 0 ww1 ww2 ww3 ww4 ww5 ww6 ww7 ww8 }) -}
+39ff55ea481fafc2e0f877a3cdbc8176
+  $fShowUserState_$cshow :: Main.UserState -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U(U,U,U,1*U(U),1*U(U),U,U,1*U(U))>,
+     Unfolding: InlineRule (1, True, False)
+                (\ x :: Main.UserState ->
+                 Main.$fShowUserState_$cshowsPrec
+                   GHC.Show.shows18
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+39ff55ea481fafc2e0f877a3cdbc8176
+  $fShowUserState_$cshowList :: [Main.UserState] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ Main.UserState
+                   Main.$fShowUserState1) -}
+39ff55ea481fafc2e0f877a3cdbc8176
+  $fShowUserState_$cshowsPrec ::
+    GHC.Types.Int -> Main.UserState -> GHC.Show.ShowS
+  {- Arity: 2,
+     Strictness: <S,1*U(U)><S,1*U(U,U,U,1*U(U),1*U(U),U,U,1*U(U))>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ w :: GHC.Types.Int w1 :: Main.UserState ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { Main.UserState ww3 ww4 ww5 ww6 ww7 ww8 ww9 ww10 ->
+                 Main.$w$cshowsPrec1 ww1 ww3 ww4 ww5 ww6 ww7 ww8 ww9 ww10 } }) -}
+11286e3b7da147f03ad5a5e0d9ec6064
+  $w$cshowsPrec ::
+    GHC.Prim.Int#
+    -> GHC.Base.String -> GHC.Base.String -> GHC.Base.String
+  {- Arity: 3, Strictness: <L,U><L,1*U><L,U>, Inline: [0],
+     Unfolding: (\ ww :: GHC.Prim.Int#
+                   ww1 :: GHC.Base.String
+                   w :: GHC.Base.String ->
+                 let {
+                   p :: GHC.Show.ShowS {- Arity: 1, Strictness: <L,1*U> -}
+                   = \ x :: GHC.Base.String[OneShot] ->
+                     GHC.Base.++
+                       @ GHC.Types.Char
+                       Main.$fShowUdcmCode4
+                       (GHC.Base.++
+                          @ GHC.Types.Char
+                          Main.$fShowUdcmCode3
+                          (GHC.Types.:
+                             @ GHC.Types.Char
+                             GHC.Show.shows6
+                             (GHC.Show.showLitString
+                                ww1
+                                (GHC.Types.:
+                                   @ GHC.Types.Char
+                                   GHC.Show.shows6
+                                   (GHC.Base.++ @ GHC.Types.Char Main.$fShowUdcmCode2 x)))))
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww 11) of wild {
+                   GHC.Types.False -> p w
+                   GHC.Types.True
+                   -> GHC.Types.:
+                        @ GHC.Types.Char
+                        GHC.Show.shows9
+                        (p (GHC.Types.: @ GHC.Types.Char GHC.Show.shows8 w)) }) -}
+770fd1c332f6602c99e1064a31c8590a
+  $w$cshowsPrec1 ::
+    GHC.Prim.Int#
+    -> GHC.Base.String
+    -> GHC.Integer.Type.Integer
+    -> GHC.Base.String
+    -> GHC.Types.Float
+    -> GHC.Types.Float
+    -> GHC.Base.String
+    -> GHC.Base.String
+    -> GHC.Types.Float
+    -> GHC.Show.ShowS
+  {- Arity: 9,
+     Strictness: <L,U><L,U><L,U><L,U><L,1*U(U)><L,1*U(U)><L,U><L,U><L,1*U(U)>,
+     Inline: [0] -}
+7a5169f57f8dea35754f8a9f402f9774
+  $w$cwriteForm ::
+    Main.UserState
+    -> (# (Data.ByteString.Internal.ByteString,
+           Data.ByteString.Internal.ByteString),
+          [(Data.ByteString.Internal.ByteString,
+            Data.ByteString.Internal.ByteString)] #)
+  {- Arity: 1,
+     Strictness: <L,U(1*U,U,1*U,1*U(U),1*U(U),1*U,1*U,1*U(U))>,
+     Inline: [0] -}
+29adb43d8fb6a55c4896b87208b4fe6f
+  $wa ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser
+         (GHC.Generics.K1 GHC.Generics.R [GHC.Types.Char] a4)
+  {- Arity: 1, Strictness: <L,1*U>, Inline: [0],
+     Unfolding: (\ @ a4 w :: Data.Aeson.Types.Internal.Value ->
+                 let {
+                   m :: Data.Aeson.Types.Internal.Parser [GHC.Types.Char]
+                   = case w of wild {
+                       DEFAULT
+                       -> Data.Aeson.Types.Class.typeMismatch
+                            @ GHC.Base.String
+                            Main.$fFromJSONUdcmCode3
+                            wild
+                       Data.Aeson.Types.Internal.String txt
+                       -> case txt of wild1 { Data.Text.Internal.Text dt dt1 dt2 ->
+                          let {
+                            a108 :: GHC.Base.String
+                            = let {
+                                a5 :: GHC.Prim.Int# = GHC.Prim.+# dt1 dt2
+                              } in
+                              letrec {
+                                $wunfold :: GHC.Prim.Int# -> [GHC.Types.Char]
+                                  {- Arity: 1, Strictness: <L,U>, Inline: [0] -}
+                                = \ ww :: GHC.Prim.Int# ->
+                                  case GHC.Prim.tagToEnum#
+                                         @ GHC.Types.Bool
+                                         (GHC.Prim.>=# ww a5) of wild2 {
+                                    GHC.Types.False
+                                    -> case GHC.Prim.indexWord16Array# dt ww of r# { DEFAULT ->
+                                       case GHC.Prim.tagToEnum#
+                                              @ GHC.Types.Bool
+                                              (GHC.Prim.geWord# r# __word 55296) of wild3 {
+                                         GHC.Types.False
+                                         -> GHC.Types.:
+                                              @ GHC.Types.Char
+                                              (GHC.Types.C# (GHC.Prim.chr# (GHC.Prim.word2Int# r#)))
+                                              ($wunfold (GHC.Prim.+# ww 1))
+                                         GHC.Types.True
+                                         -> case GHC.Prim.tagToEnum#
+                                                   @ GHC.Types.Bool
+                                                   (GHC.Prim.leWord# r# __word 56319) of wild4 {
+                                              GHC.Types.False
+                                              -> GHC.Types.:
+                                                   @ GHC.Types.Char
+                                                   (GHC.Types.C#
+                                                      (GHC.Prim.chr# (GHC.Prim.word2Int# r#)))
+                                                   ($wunfold (GHC.Prim.+# ww 1))
+                                              GHC.Types.True
+                                              -> case GHC.Prim.indexWord16Array#
+                                                        dt
+                                                        (GHC.Prim.+# ww 1) of r#1 { DEFAULT ->
+                                                 GHC.Types.:
+                                                   @ GHC.Types.Char
+                                                   (GHC.Types.C#
+                                                      (GHC.Prim.chr#
+                                                         (GHC.Prim.+#
+                                                            (GHC.Prim.+#
+                                                               (GHC.Prim.uncheckedIShiftL#
+                                                                  (GHC.Prim.-#
+                                                                     (GHC.Prim.word2Int# r#)
+                                                                     55296)
+                                                                  10)
+                                                               (GHC.Prim.-#
+                                                                  (GHC.Prim.word2Int# r#1)
+                                                                  56320))
+                                                            65536)))
+                                                   ($wunfold (GHC.Prim.+# ww 2)) } } } }
+                                    GHC.Types.True -> GHC.Types.[] @ GHC.Types.Char }
+                              } in
+                              $wunfold dt1
+                          } in
+                          (\ @ (f :: * -> *)
+                             @ r
+                             _path :: Data.Aeson.Types.Internal.JSONPath
+                             _kf :: Data.Aeson.Types.Internal.Failure f r
+                             ks :: Data.Aeson.Types.Internal.Success GHC.Base.String f r ->
+                           ks a108)
+                            `cast`
+                          (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                                    <GHC.Base.String>_R)) } }
+                 } in
+                 (\ @ (f1 :: * -> *)
+                    @ r
+                    path :: Data.Aeson.Types.Internal.JSONPath
+                    kf :: Data.Aeson.Types.Internal.Failure f1 r
+                    ks :: Data.Aeson.Types.Internal.Success
+                            (GHC.Generics.K1 GHC.Generics.R [GHC.Types.Char] a4) f1 r ->
+                  m `cast`
+                  (Data.Aeson.Types.Internal.NTCo:Parser[0] <[GHC.Types.Char]>_R)
+                    @ f1
+                    @ r
+                    path
+                    kf
+                    (\ a86 :: [GHC.Types.Char] ->
+                     ks
+                       a86
+                         `cast`
+                       (Sym (GHC.Generics.NTCo:K1[0]
+                                 <GHC.Generics.R>_P <[GHC.Types.Char]>_R <a4>_P))))
+                   `cast`
+                 (Sym (Data.Aeson.Types.Internal.NTCo:Parser[0]
+                           <GHC.Generics.K1 GHC.Generics.R [GHC.Types.Char] a4>_R))) -}
+ae66b1ad7118cf2e353b0853686ee2d7
+  abstract(True) C1_0UdcmCode
+faba5fc52c777d527523293041fb16a1
+  abstract(True) C1_0UserState
+d94f90625ceecd680051f93a80ac30d5
+  abstract(True) D1UdcmCode
+833395db382199347ec032d917224c5d
+  abstract(True) D1UserState
+d5a160bf76151bb9860d03b69eae5b61
+  class RedisWritable a where
+    writeForm ::
+      a
+      -> [(Data.ByteString.Internal.ByteString,
+           Data.ByteString.Internal.ByteString)]
+    genKey :: a -> Data.ByteString.Internal.ByteString
+58f01951ffa25859be39fcf719e38f78
+  axiom Rep_UdcmCode::
+      GHC.Generics.Rep Main.UdcmCode
+        = GHC.Generics.D1
+            Main.D1UdcmCode
+            (GHC.Generics.C1
+               Main.C1_0UdcmCode
+               (GHC.Generics.S1
+                  Main.S1_0_0UdcmCode (GHC.Generics.Rec0 GHC.Base.String)))
+39ff55ea481fafc2e0f877a3cdbc8176
+  axiom Rep_UserState::
+      GHC.Generics.Rep Main.UserState
+        = GHC.Generics.D1
+            Main.D1UserState
+            (GHC.Generics.C1
+               Main.C1_0UserState
+               (((GHC.Generics.S1
+                    Main.S1_0_0UserState (GHC.Generics.Rec0 GHC.Base.String)
+                  GHC.Generics.:*: GHC.Generics.S1
+                                     Main.S1_0_1UserState
+                                     (GHC.Generics.Rec0 GHC.Integer.Type.Integer))
+                 GHC.Generics.:*: (GHC.Generics.S1
+                                     Main.S1_0_2UserState (GHC.Generics.Rec0 GHC.Base.String)
+                                   GHC.Generics.:*: GHC.Generics.S1
+                                                      Main.S1_0_3UserState
+                                                      (GHC.Generics.Rec0 GHC.Types.Float)))
+                GHC.Generics.:*: ((GHC.Generics.S1
+                                     Main.S1_0_4UserState (GHC.Generics.Rec0 GHC.Types.Float)
+                                   GHC.Generics.:*: GHC.Generics.S1
+                                                      Main.S1_0_5UserState
+                                                      (GHC.Generics.Rec0 GHC.Base.String))
+                                  GHC.Generics.:*: (GHC.Generics.S1
+                                                      Main.S1_0_6UserState
+                                                      (GHC.Generics.Rec0 GHC.Base.String)
+                                                    GHC.Generics.:*: GHC.Generics.S1
+                                                                       Main.S1_0_7UserState
+                                                                       (GHC.Generics.Rec0
+                                                                          GHC.Types.Float)))))
+58f01951ffa25859be39fcf719e38f78
+  abstract(True) S1_0_0UdcmCode
+2bf3b718c370ed314e86ab06a0fc43a1
+  abstract(True) S1_0_0UserState
+5a0b1ce5dab25d8a6b96a715d28854dd
+  abstract(True) S1_0_1UserState
+275870e0406ba9bb5e66899ee62189c9
+  abstract(True) S1_0_2UserState
+bac8cd4039cf072fd43b1f2417d6b530
+  abstract(True) S1_0_3UserState
+2b0d5bc4e8225cb3e03d28cec0512a90
+  abstract(True) S1_0_4UserState
+56b9e51a44e4e2f703042b90c8509ee7
+  abstract(True) S1_0_5UserState
+cecdb171e823a42904db8fd40f83e9b4
+  abstract(True) S1_0_6UserState
+39ff55ea481fafc2e0f877a3cdbc8176
+  abstract(True) S1_0_7UserState
+58f01951ffa25859be39fcf719e38f78
+  data UdcmCode = UdcmCode {udcmCode :: GHC.Base.String}
+39ff55ea481fafc2e0f877a3cdbc8176
+  data UserState
+    = UserState {udcm :: GHC.Base.String,
+                 timestamp :: GHC.Integer.Type.Integer,
+                 locationCode :: GHC.Base.String,
+                 betaConfidence :: GHC.Types.Float,
+                 gammaConfidence :: GHC.Types.Float,
+                 predictionLevel :: GHC.Base.String,
+                 nearTagLocationCode :: GHC.Base.String,
+                 nearTagConfidence :: GHC.Types.Float}
+a634c3004d8b4ab94a023da8da003308
+  betaConfidence :: Main.UserState -> GHC.Types.Float
+  RecSel Main.UserState
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLSLLLL),1*U(A,A,A,1*U(U),A,A,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Main.UserState ->
+                 case ds of wild { Main.UserState ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ->
+                 ds4 }) -}
+f94b16cfa7ce6a8180f1b05719592e30
+  gammaConfidence :: Main.UserState -> GHC.Types.Float
+  RecSel Main.UserState
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLSLLL),1*U(A,A,A,A,1*U(U),A,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Main.UserState ->
+                 case ds of wild { Main.UserState ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ->
+                 ds5 }) -}
+80a2c284049997546cee4639b3bca26f
+  locationCode :: Main.UserState -> GHC.Base.String
+  RecSel Main.UserState
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLSLLLLL),1*U(A,A,1*U,A,A,A,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Main.UserState ->
+                 case ds of wild { Main.UserState ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ->
+                 ds3 }) -}
+ee6590a2ab0ffaa5074d93f2d3fc4c03
+  main :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R)) -}
+e3bd864fe81295cabb6b36ca45539f6f
+  main1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <L,U> -}
+20688fff09df92565d9be8c5f0313411
+  main2 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (GHC.TopHandler.runMainIO1
+                   @ ()
+                   Main.main1 `cast` (Sym (GHC.Types.NTCo:IO[0] <()>_R))) -}
+f53278b3149ff17eed5db9a3a2d85f4c
+  nearTagConfidence :: Main.UserState -> GHC.Types.Float
+  RecSel Main.UserState
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLLS),1*U(A,A,A,A,A,A,A,1*U(U))>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Main.UserState ->
+                 case ds of wild { Main.UserState ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ->
+                 ds8 }) -}
+385969a721005d14a60eea2de11b1539
+  nearTagLocationCode :: Main.UserState -> GHC.Base.String
+  RecSel Main.UserState
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLLSL),1*U(A,A,A,A,A,A,1*U,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Main.UserState ->
+                 case ds of wild { Main.UserState ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ->
+                 ds7 }) -}
+c2dac0c159503cb1a1f42e54e3a7baa0
+  predictionLevel :: Main.UserState -> GHC.Base.String
+  RecSel Main.UserState
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LLLLLSLL),1*U(A,A,A,A,A,1*U,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Main.UserState ->
+                 case ds of wild { Main.UserState ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ->
+                 ds6 }) -}
+c76c8a2a5f195cd7a882ab9a409aa9ff
+  timestamp :: Main.UserState -> GHC.Integer.Type.Integer
+  RecSel Main.UserState
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(LSLLLLLL),1*U(A,1*U,A,A,A,A,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Main.UserState ->
+                 case ds of wild { Main.UserState ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ->
+                 ds2 }) -}
+f30b47db2cf009d26240b32c4262a25b
+  udcm :: Main.UserState -> GHC.Base.String
+  RecSel Main.UserState
+  {- Arity: 1, HasNoCafRefs,
+     Strictness: <S(SLLLLLLL),1*U(1*U,A,A,A,A,A,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Main.UserState ->
+                 case ds of wild { Main.UserState ds1 ds2 ds3 ds4 ds5 ds6 ds7 ds8 ->
+                 ds1 }) -}
+bd1ebd96533892d09ab93b182fd55677
+  udcmCode :: Main.UdcmCode -> GHC.Base.String
+  RecSel Main.UdcmCode
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(S),1*U(1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ ds :: Main.UdcmCode ->
+                 case ds of wild { Main.UdcmCode ds1 -> ds1 }) -}
+instance GHC.Generics.Constructor [Main.C1_0UdcmCode]
+  = Main.$fConstructorUdcmCode
+instance GHC.Generics.Constructor [Main.C1_0UserState]
+  = Main.$fConstructorUserState
+instance GHC.Generics.Datatype [Main.D1UdcmCode]
+  = Main.$fDatatypeUdcmCode
+instance GHC.Generics.Datatype [Main.D1UserState]
+  = Main.$fDatatypeUserState
+instance Data.Aeson.Types.Class.FromJSON [Main.UdcmCode]
+  = Main.$fFromJSONUdcmCode
+instance GHC.Generics.Generic [Main.UdcmCode]
+  = Main.$fGenericUdcmCode
+instance GHC.Generics.Generic [Main.UserState]
+  = Main.$fGenericUserState
+instance Main.RedisWritable [Main.UserState]
+  = Main.$fRedisWritableUserState
+instance GHC.Generics.Selector [Main.S1_0_0UdcmCode]
+  = Main.$fSelectorUdcmCode
+instance GHC.Generics.Selector [Main.S1_0_0UserState]
+  = Main.$fSelectorUserState
+instance GHC.Generics.Selector [Main.S1_0_1UserState]
+  = Main.$fSelectorUserState0
+instance GHC.Generics.Selector [Main.S1_0_2UserState]
+  = Main.$fSelectorUserState1
+instance GHC.Generics.Selector [Main.S1_0_3UserState]
+  = Main.$fSelectorUserState2
+instance GHC.Generics.Selector [Main.S1_0_4UserState]
+  = Main.$fSelectorUserState3
+instance GHC.Generics.Selector [Main.S1_0_5UserState]
+  = Main.$fSelectorUserState4
+instance GHC.Generics.Selector [Main.S1_0_6UserState]
+  = Main.$fSelectorUserState5
+instance GHC.Generics.Selector [Main.S1_0_7UserState]
+  = Main.$fSelectorUserState6
+instance GHC.Show.Show [Main.UdcmCode] = Main.$fShowUdcmCode
+instance GHC.Show.Show [Main.UserState] = Main.$fShowUserState
+family instance GHC.Generics.Rep [Main.UserState]
+  = Main.Rep_UserState
+family instance GHC.Generics.Rep [Main.UdcmCode]
+  = Main.Rep_UdcmCode
+"SPEC/Main $dmconFixity @ C1_0UdcmCode" [ALWAYS] forall $dConstructor :: GHC.Generics.Constructor
+                                                                           Main.C1_0UdcmCode
+  GHC.Generics.$dmconFixity @ Main.C1_0UdcmCode $dConstructor
+  = Main.$fConstructorUdcmCode_$s$dmconFixity
+"SPEC/Main $dmconFixity @ C1_0UserState" [ALWAYS] forall $dConstructor :: GHC.Generics.Constructor
+                                                                            Main.C1_0UserState
+  GHC.Generics.$dmconFixity @ Main.C1_0UserState $dConstructor
+  = Main.$fConstructorUserState_$s$dmconFixity
+"SPEC/Main $dmisNewtype @ D1UdcmCode" [ALWAYS] forall $dDatatype :: GHC.Generics.Datatype
+                                                                      Main.D1UdcmCode
+  GHC.Generics.$dmisNewtype @ Main.D1UdcmCode $dDatatype
+  = Main.$fDatatypeUdcmCode_$s$dmisNewtype
+"SPEC/Main $dmisNewtype @ D1UserState" [ALWAYS] forall $dDatatype :: GHC.Generics.Datatype
+                                                                       Main.D1UserState
+  GHC.Generics.$dmisNewtype @ Main.D1UserState $dDatatype
+  = Main.$fDatatypeUserState_$s$dmisNewtype
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+
